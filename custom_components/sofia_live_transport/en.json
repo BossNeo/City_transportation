@@ -1,0 +1,57 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sofia Live Transport",
+        "description": "Configure a local transport monitor. Vehicle types (comma-separated): {vehicle_types_hint}",
+        "data": {
+          "name": "Instance name",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "radius": "Stop search radius (meters)",
+          "time_window": "Departure time window (minutes)",
+          "refresh_interval": "Refresh interval (seconds)",
+          "vehicle_types": "Vehicle types (comma-separated)"
+        },
+        "data_description": {
+          "radius": "All stops within this distance from the chosen coordinates will be monitored.",
+          "time_window": "Only departures within this many minutes will be shown.",
+          "refresh_interval": "How often the real-time feed is polled.",
+          "vehicle_types": "Allowed values: bus, tram, trolleybus, subway"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    },
+    "error": {
+      "vehicle_types": "Invalid vehicle type(s). Allowed: bus, tram, trolleybus, subway."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Sofia Live Transport options",
+        "description": "Update configuration. Vehicle types (comma-separated): {vehicle_types_hint}",
+        "data": {
+          "name": "Instance name",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "radius": "Stop search radius (meters)",
+          "time_window": "Departure time window (minutes)",
+          "refresh_interval": "Refresh interval (seconds)",
+          "vehicle_types": "Vehicle types (comma-separated)"
+        },
+        "data_description": {
+          "radius": "All stops within this distance from the chosen coordinates will be monitored.",
+          "time_window": "Only departures within this many minutes will be shown.",
+          "refresh_interval": "How often the real-time feed is polled.",
+          "vehicle_types": "Allowed values: bus, tram, trolleybus, subway"
+        }
+      }
+    },
+    "error": {
+      "vehicle_types": "Invalid vehicle type(s). Allowed: bus, tram, trolleybus, subway."
+    }
+  }
+}
