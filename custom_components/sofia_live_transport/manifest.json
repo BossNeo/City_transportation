@@ -1,7 +1,7 @@
 {
   "domain": "sofia_live_transport",
   "name": "Sofia Live Transport",
-  "version": "0.3.4",
+  "version": "0.3.3",
   "config_flow": true,
   "documentation": "https://github.com/your-username/sofia_live_transport",
   "issue_tracker": "https://github.com/your-username/sofia_live_transport/issues",
